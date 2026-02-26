@@ -123,6 +123,7 @@ class erLhcoreClassModelChat {
                'gbot_id'    	        => $this->gbot_id,
                'cls_us'    	            => $this->cls_us,
                'iwh_id'    	            => $this->iwh_id,
+               'pbx_campaign_id'        => $this->pbx_campaign_id,
                'theme_id'    	        => $this->theme_id,
 
                 'frt'                   => $this->frt,  // First time response delay
@@ -877,6 +878,7 @@ class erLhcoreClassModelChat {
    public $cls_us = 0;
 
    public $iwh_id = 0;
+   public $pbx_campaign_id = 0;
    public $frt = 0;
    public $aart = 0;
    public $mart = 0;
